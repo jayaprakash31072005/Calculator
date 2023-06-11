@@ -1,43 +1,106 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
   padding: 20px;
 }
 
 h1 {
+  font-size: 28px;
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-#chat-container {
-  border: 1px solid #ccc;
-  padding: 10px;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#chat-messages {
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
   margin-bottom: 10px;
-  height: 200px;
-  overflow-y: scroll;
-  border: 1px solid #ccc;
-  padding: 10px;
 }
 
-#user-input {
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+.calculate {
+  padding: 100px;
   display: flex;
+  justify-content: space-between;
+  border: 5px solid #1d2ec8a4;
+  border-radius: 4px;
+}
+div {
+  margin-bottom: 10px;
 }
 
-#question-input {
-  flex: 1;
+label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
   padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-#submit-btn {
-  padding: 5px 10px;
-  margin-left: 10px;
-}
-
-.default-question {
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  color: blue;
-  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #043c19;
+}
+
+#result {
+  padding: 80px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#result p {
+  font-weight: bold;
+}
+
+#convertedArea {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
 }
