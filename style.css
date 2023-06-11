@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#chat-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#chat-messages {
+  margin-bottom: 10px;
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#user-input {
+  display: flex;
+}
+
+#question-input {
+  flex: 1;
+  padding: 5px;
+}
+
+#submit-btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.default-question {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
